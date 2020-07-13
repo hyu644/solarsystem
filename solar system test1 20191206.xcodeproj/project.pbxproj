@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54297CA4239A14E100EAD0D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54297CA3239A14E100EAD0D3 /* AppDelegate.swift */; };
+		54297CA6239A14E100EAD0D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54297CA5239A14E100EAD0D3 /* ViewController.swift */; };
+		54297CA8239A14E100EAD0D3 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 54297CA7239A14E100EAD0D3 /* Experience.rcproject */; };
+		54297CAD239A14E200EAD0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54297CAC239A14E200EAD0D3 /* Assets.xcassets */; };
+		54297CB0239A14E200EAD0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54297CAE239A14E200EAD0D3 /* LaunchScreen.storyboard */; };
+		54297CBB239A14E200EAD0D3 /* solar_system_test1_20191206Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54297CBA239A14E200EAD0D3 /* solar_system_test1_20191206Tests.swift */; };
+		54297CC6239A14E200EAD0D3 /* solar_system_test1_20191206UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54297CC5239A14E200EAD0D3 /* solar_system_test1_20191206UITests.swift */; };
+		546AA930239E0983000505B3 /* SolarSystemMain.scn in Resources */ = {isa = PBXBuildFile; fileRef = 546AA92F239E0983000505B3 /* SolarSystemMain.scn */; };
+		54EF6FA5239A1A0200904D46 /* SolarSystemMain in Resources */ = {isa = PBXBuildFile; fileRef = 54EF6FA4239A1A0200904D46 /* SolarSystemMain */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54297CB7239A14E200EAD0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54297C98239A14E100EAD0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54297C9F239A14E100EAD0D3;
+			remoteInfo = "solar system test1 20191206";
+		};
+		54297CC2239A14E200EAD0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54297C98239A14E100EAD0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54297C9F239A14E100EAD0D3;
+			remoteInfo = "solar system test1 20191206";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54297CA3239A14E100EAD0D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54297CA5239A14E100EAD0D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54297CA7239A14E100EAD0D3 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		54297CAC239A14E200EAD0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54297CAF239A14E200EAD0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54297CB1239A14E200EAD0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54297CB6239A14E200EAD0D3 /* solar system test1 20191206Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "solar system test1 20191206Tests.xctest"; path = "/Users/hyu/Desktop/swift & xcode/ios application demo/solar system test1 20191206/build/Debug-iphoneos/solar system test1 20191206Tests.xctest"; sourceTree = "<absolute>"; };
+		54297CBA239A14E200EAD0D3 /* solar_system_test1_20191206Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solar_system_test1_20191206Tests.swift; sourceTree = "<group>"; };
+		54297CBC239A14E200EAD0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54297CC1239A14E200EAD0D3 /* solar system test1 20191206UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "solar system test1 20191206UITests.xctest"; path = "/Users/hyu/Desktop/swift & xcode/ios application demo/solar system test1 20191206/build/Debug-iphoneos/solar system test1 20191206UITests.xctest"; sourceTree = "<absolute>"; };
+		54297CC5239A14E200EAD0D3 /* solar_system_test1_20191206UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solar_system_test1_20191206UITests.swift; sourceTree = "<group>"; };
+		54297CC7239A14E200EAD0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546AA92F239E0983000505B3 /* SolarSystemMain.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SolarSystemMain.scn; sourceTree = "<group>"; };
+		546AA931239E0BC3000505B3 /* solar system test1 20191206.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "solar system test1 20191206.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54EF6FA4239A1A0200904D46 /* SolarSystemMain */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SolarSystemMain; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54297C9D239A14E100EAD0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54297CB3239A14E200EAD0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54297CBE239A14E200EAD0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54297C97239A14E100EAD0D3 = {
+			isa = PBXGroup;
+			children = (
+				54297CA2239A14E100EAD0D3 /* solar system test1 20191206 */,
+				54297CB9239A14E200EAD0D3 /* solar system test1 20191206Tests */,
+				54297CC4239A14E200EAD0D3 /* solar system test1 20191206UITests */,
+				546AA931239E0BC3000505B3 /* solar system test1 20191206.app */,
+			);
+			sourceTree = "<group>";
+		};
+		54297CA2239A14E100EAD0D3 /* solar system test1 20191206 */ = {
+			isa = PBXGroup;
+			children = (
+				54297CA3239A14E100EAD0D3 /* AppDelegate.swift */,
+				54297CA5239A14E100EAD0D3 /* ViewController.swift */,
+				546AA92F239E0983000505B3 /* SolarSystemMain.scn */,
+				54297CA7239A14E100EAD0D3 /* Experience.rcproject */,
+				54EF6FA4239A1A0200904D46 /* SolarSystemMain */,
+				54297CAC239A14E200EAD0D3 /* Assets.xcassets */,
+				54297CAE239A14E200EAD0D3 /* LaunchScreen.storyboard */,
+				54297CB1239A14E200EAD0D3 /* Info.plist */,
+			);
+			path = "solar system test1 20191206";
+			sourceTree = "<group>";
+		};
+		54297CB9239A14E200EAD0D3 /* solar system test1 20191206Tests */ = {
+			isa = PBXGroup;
+			children = (
+				54297CBA239A14E200EAD0D3 /* solar_system_test1_20191206Tests.swift */,
+				54297CBC239A14E200EAD0D3 /* Info.plist */,
+			);
+			path = "solar system test1 20191206Tests";
+			sourceTree = "<group>";
+		};
+		54297CC4239A14E200EAD0D3 /* solar system test1 20191206UITests */ = {
+			isa = PBXGroup;
+			children = (
+				54297CC5239A14E200EAD0D3 /* solar_system_test1_20191206UITests.swift */,
+				54297CC7239A14E200EAD0D3 /* Info.plist */,
+			);
+			path = "solar system test1 20191206UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54297C9F239A14E100EAD0D3 /* solar system test1 20191206 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54297CCA239A14E200EAD0D3 /* Build configuration list for PBXNativeTarget "solar system test1 20191206" */;
+			buildPhases = (
+				54297C9C239A14E100EAD0D3 /* Sources */,
+				54297C9D239A14E100EAD0D3 /* Frameworks */,
+				54297C9E239A14E100EAD0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "solar system test1 20191206";
+			productName = "solar system test1 20191206";
+			productReference = 546AA931239E0BC3000505B3 /* solar system test1 20191206.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54297CB5239A14E200EAD0D3 /* solar system test1 20191206Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54297CCD239A14E200EAD0D3 /* Build configuration list for PBXNativeTarget "solar system test1 20191206Tests" */;
+			buildPhases = (
+				54297CB2239A14E200EAD0D3 /* Sources */,
+				54297CB3239A14E200EAD0D3 /* Frameworks */,
+				54297CB4239A14E200EAD0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54297CB8239A14E200EAD0D3 /* PBXTargetDependency */,
+			);
+			name = "solar system test1 20191206Tests";
+			productName = "solar system test1 20191206Tests";
+			productReference = 54297CB6239A14E200EAD0D3 /* solar system test1 20191206Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54297CC0239A14E200EAD0D3 /* solar system test1 20191206UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54297CD0239A14E200EAD0D3 /* Build configuration list for PBXNativeTarget "solar system test1 20191206UITests" */;
+			buildPhases = (
+				54297CBD239A14E200EAD0D3 /* Sources */,
+				54297CBE239A14E200EAD0D3 /* Frameworks */,
+				54297CBF239A14E200EAD0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54297CC3239A14E200EAD0D3 /* PBXTargetDependency */,
+			);
+			name = "solar system test1 20191206UITests";
+			productName = "solar system test1 20191206UITests";
+			productReference = 54297CC1239A14E200EAD0D3 /* solar system test1 20191206UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54297C98239A14E100EAD0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = hyu;
+				TargetAttributes = {
+					54297C9F239A14E100EAD0D3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					54297CB5239A14E200EAD0D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 54297C9F239A14E100EAD0D3;
+					};
+					54297CC0239A14E200EAD0D3 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 54297C9F239A14E100EAD0D3;
+					};
+				};
+			};
+			buildConfigurationList = 54297C9B239A14E100EAD0D3 /* Build configuration list for PBXProject "solar system test1 20191206" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54297C97239A14E100EAD0D3;
+			productRefGroup = 54297C97239A14E100EAD0D3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54297C9F239A14E100EAD0D3 /* solar system test1 20191206 */,
+				54297CB5239A14E200EAD0D3 /* solar system test1 20191206Tests */,
+				54297CC0239A14E200EAD0D3 /* solar system test1 20191206UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54297C9E239A14E100EAD0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546AA930239E0983000505B3 /* SolarSystemMain.scn in Resources */,
+				54297CB0239A14E200EAD0D3 /* LaunchScreen.storyboard in Resources */,
+				54297CAD239A14E200EAD0D3 /* Assets.xcassets in Resources */,
+				54EF6FA5239A1A0200904D46 /* SolarSystemMain in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54297CB4239A14E200EAD0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54297CBF239A14E200EAD0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54297C9C239A14E100EAD0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54297CA6239A14E100EAD0D3 /* ViewController.swift in Sources */,
+				54297CA4239A14E100EAD0D3 /* AppDelegate.swift in Sources */,
+				54297CA8239A14E100EAD0D3 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54297CB2239A14E200EAD0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54297CBB239A14E200EAD0D3 /* solar_system_test1_20191206Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54297CBD239A14E200EAD0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54297CC6239A14E200EAD0D3 /* solar_system_test1_20191206UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54297CB8239A14E200EAD0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54297C9F239A14E100EAD0D3 /* solar system test1 20191206 */;
+			targetProxy = 54297CB7239A14E200EAD0D3 /* PBXContainerItemProxy */;
+		};
+		54297CC3239A14E200EAD0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54297C9F239A14E100EAD0D3 /* solar system test1 20191206 */;
+			targetProxy = 54297CC2239A14E200EAD0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54297CAE239A14E200EAD0D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54297CAF239A14E200EAD0D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54297CC8239A14E200EAD0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54297CC9239A14E200EAD0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54297CCB239A14E200EAD0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "solar system test1 20191206/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "re.solar-system-test1-20191206";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54297CCC239A14E200EAD0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "solar system test1 20191206/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "re.solar-system-test1-20191206";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54297CCE239A14E200EAD0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "solar system test1 20191206Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "re.solar-system-test1-20191206Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solar system test1 20191206.app/solar system test1 20191206";
+			};
+			name = Debug;
+		};
+		54297CCF239A14E200EAD0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "solar system test1 20191206Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "re.solar-system-test1-20191206Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solar system test1 20191206.app/solar system test1 20191206";
+			};
+			name = Release;
+		};
+		54297CD1239A14E200EAD0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "solar system test1 20191206UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "re.solar-system-test1-20191206UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "solar system test1 20191206";
+			};
+			name = Debug;
+		};
+		54297CD2239A14E200EAD0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "solar system test1 20191206UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "re.solar-system-test1-20191206UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "solar system test1 20191206";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54297C9B239A14E100EAD0D3 /* Build configuration list for PBXProject "solar system test1 20191206" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54297CC8239A14E200EAD0D3 /* Debug */,
+				54297CC9239A14E200EAD0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54297CCA239A14E200EAD0D3 /* Build configuration list for PBXNativeTarget "solar system test1 20191206" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54297CCB239A14E200EAD0D3 /* Debug */,
+				54297CCC239A14E200EAD0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54297CCD239A14E200EAD0D3 /* Build configuration list for PBXNativeTarget "solar system test1 20191206Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54297CCE239A14E200EAD0D3 /* Debug */,
+				54297CCF239A14E200EAD0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54297CD0239A14E200EAD0D3 /* Build configuration list for PBXNativeTarget "solar system test1 20191206UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54297CD1239A14E200EAD0D3 /* Debug */,
+				54297CD2239A14E200EAD0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54297C98239A14E100EAD0D3 /* Project object */;
+}
